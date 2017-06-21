@@ -1,0 +1,224 @@
+/* FORMATEO DE ID'S ------------------------------------------------------------*/
+
+#botonera {
+	text-align: center;
+	backgroud: black;
+	padding: 0px;
+	background: url(imgs/trnsprnt2-61.png);
+	width: 1366px;
+	margin: auto;
+	box-shadow: 3px	3px 10px black;
+}
+
+#botonera ul li {
+	text-transform: uppercase;
+	display:inline-block;
+	padding: 30px 15px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 30px;
+}
+
+#principal {
+	width: 1366px;
+	margin: auto;
+	background: url(imgs/trnsprnt2-61.png);
+	padding: 0 20px;
+	box-shadow: 3px	3px 10px black;
+}
+
+#parrafodeh1 {
+	text-align:center;
+	margin-bottom: 50px;
+	font-size: 20px;
+}
+
+#footer {
+	color: #444;
+	text-align: center;
+	margin-top: 80px;
+	padding-top: 30px 0 10px 0;
+	background: url(imgs/trnsprnt2-61.png);
+	box-shadow: 3px	3px 10px black;
+}
+
+#footer a {
+	text-decoration:none;
+	color: #777;
+}
+
+/* FORMATEO DE ETIQUETAS------------------------------------------------------*/
+
+body {
+	margin: 0 80px;
+	font-family: Verdana;
+	background: url(imgs/discowall3.jpg) center top no-repeat fixed black;	
+	color: #18AFFE;
+}
+
+h1 {
+	margin-left: -9050px;
+	margin-right: 335px;
+	padding: 95px 0; 
+	color: #F66BD3;
+	background: url(imgs/logo2.png) no-repeat top right;
+	overflow: hidden;
+}
+
+
+h2 {
+	text-indent: 250px;
+	text-align:left; 
+	padding: 13px 70px ;
+	background: url(imgs/discoball.gif) center left no-repeat black;
+	background-position: -20px -120px;
+	color: #D7006E;
+	font-family: 'Dosis', sans-serif;
+	font-size: 30px;
+}
+
+h3 {
+	color: #D7006E;
+	font-family: 'Dosis', sans-serif;
+	font-size: 25px;
+	margin-left:30px; /*porque solo afecta los h3 de info.html*/
+}
+
+#galeria img {
+	box-shadow: 2px 2px 7px black;
+	transition-property: background, transform; /* El color texto cambia  violentamente */  
+	transition-duration: 0.2s; /* el cambio se produce en medio segundo */  
+	transition-timing-function: ease-out; /* va frenando al final */  
+	transition-delay: 0s;
+}
+
+#galeria img:hover {
+	 transform: scale( 1.2 ); 
+}
+
+p {
+	text-align: justify;
+	text-indent: 25px;
+}
+
+a {
+	text-decoration: none;
+	color: #3ACFFF;
+	padding: 30px;
+}
+
+a:hover {
+	text-decoration: none;
+	color: orange;
+	backgroud: purple;
+}
+
+ul {
+	list-style: none;
+}
+
+
+
+
+/*ul li  {
+	display:inline-block;
+}*/
+
+/*FORMATEO TABLA de discografia.html---------------------------------------------*/
+
+/*( Lista de discos)*/
+
+.libloque  {
+	width: 325px;
+	list-style: none;
+	display: inline-block;
+	vertical-align: top;
+}
+.libloque h3 {
+	text-align:center;
+	font-size: 27px;
+}
+table {
+	margin: auto;
+	width: 930px; 
+	color: white; 
+	text-align: center;
+	border-collapse: collapse;
+}
+
+caption {
+	font-style: italic;
+}
+
+tfoot {
+	text-align:left;
+}
+
+/*FORMULARIO de info.html ------------------------------------------------------*/ 
+
+#galeria {
+	margin:auto;
+	width: 1350px;
+	padding-left: 0;
+}
+
+#galeria li {
+	display:inline-block;	
+} 
+
+
+/*FORMULARIO de sorteo.html ---------------------------------------------------*/ 
+
+#formulario {
+	margin-top: 50px;
+}
+
+#spancheckbox {
+	float: left;
+}
+
+#divcheckbox div:first-of-type {
+	margin-left: 0px;
+}
+
+.spansex {
+	width: 80px;
+	color: #18AFFE;
+}
+
+.divcheckbox {
+	display:inline-block;
+	vertical-align:top; 
+	margin-left: 280px;
+	margin-bottom: 15px;
+	width: 700px;
+}
+
+input {
+	display: inline-block;
+}
+
+textarea	{ 
+	resize: none; 
+}
+
+form span {
+	margin-bottom: 15px;
+	display: inline-block;
+	width: 280px;
+	vertical-align: top;
+	color: #D7006E;
+}
+
+select {
+	vertical-align: top;
+}
+
+input[type=submit] {
+	margin: 15px 0 50px 280px;
+}
+/*
+input[type=checkbox] {
+	margin-left: 280px;
+}*/
+
+

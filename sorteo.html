@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" lang="ES" />   <!-- lan=es ? lang=es ? -->
+	<link rel="stylesheet" href="src/estilogral.css" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Dosis:700" rel="stylesheet" type="text/css"/>
+	<title>Lipps Inc | Sorteo</title>
+</head>
+
+<body>
+	<div id="botonera">
+			<ul>
+				<li><a href="index.html" >Home</a></li>
+				<li><a href="discografia.html">Discografía</a></li>
+				<li><a href="info.html">Información</a></li>
+				<li><a href="sorteo.html" style="color:#D7006E" >Sorteo</a></li>
+			</ul>
+	</div>
+	
+	<div id="principal">	
+		<h1>Lipps, Inc.</h1>
+			<p id="parrafodeh1">Inscripción para el sorteo mensual por merchandising de la banda</p>
+		<h2>Formulario de inscripción</h2>
+			<p>
+				Para participar del sorteo solo tenés que completar el siguiente formulario con los datos requeridos, en caso de salir sorteado nos estaremos comunicando con vos. (*)Sólo podrás participar si te encuentras en los países de residencia declarados en el formulario.
+			</p>
+		<div id="formulario">
+			<form action="gracias.html" method="post" enctype="multipart/form-data">
+				<div><span>Ingresa tu nombre</span><input type="text" name="nombre" size="53"/> </div>
+				<div><span>Ingresa tu apellido</span><input type="text" name="apellido" size="53"/> </div>
+				<div>
+					<span>Sexo:</span>
+					<span class="spansex">Masculino</span><input type="radio" name="sexo" value="masculino" checked="checked"/>
+					<span class="spansex">Femenino</span><input type="radio" name="sexo" value="femenino" />
+				</div> 
+				<div>
+					<span>País de residencia</span>
+					<select name="residencia">
+						<optgroup label="Sudamérica">
+							<option>Argentina</option>
+							<option>Brasil</option>
+							<option>Chile</option>
+							<option>Colombia</option>
+							<option>Ecuador</option>
+							<option>Uruguay</option>
+							<option>Venezuela</option>
+						</optgroup>
+						<optgroup label="Europa">
+							<option>España</option>
+							<option>Portugal</option>
+						</optgroup>
+					</select>
+				</div>	
+				<div>
+					<span>Contanos cuál es tu tema favorito de la banda y por qué.</span>
+					<textarea name="como" rows="5" cols="40">
+					</textarea>
+				</div>
+				<div id="divcheckbox">
+					<span id="spancheckbox">En donde habías escuchado acerca de Funkytown en la televisión?</span>
+					<div class="divcheckbox"><input type="checkbox" name="opcion[0]" value="valor1" /> En el episodio Colonel Homero de Los Simpsons, cuando Homero escucha una canción de la artista country Lurleen Lumpkin, comenta "no me he sentido así desde Funkytown".</div>
+					<div class="divcheckbox"><input type="checkbox" name="opcion[1]" value="valor2" /> En un episodio de South Park, la Towel Towelie toca "Funkytown" por medio de un teclado numérico de teléfono marcando 557 544-5085.</div>
+					<div class="divcheckbox"><input type="checkbox" name="opcion[2]" value="valor3" /> En la serie de dibujos animados Futurama, el presentador de noticias Morbo canta "Funkytown" en un bar de karaoke en el episodio Amazon Women in the Mood.</div>
+					<div class="divcheckbox"><input type="checkbox" name="opcion[3]" value="valor4" /> En la película Shrek 2, "Funkytown" se reproduce cuando Shrek, Fiona y Burro llegan al Reino Muy, Muy Lejano.</div>
+					<div class="divcheckbox"><input type="checkbox" name="opcion[4]" value="valor5" /> En la película de Mel Brooks, La loca historia del Mundo, "Funkytown" se puede escuchar desde un equipo de sonido con humor anacrónico en la Antigua Roma.</div>
+					<div class="divcheckbox"><input type="checkbox" name="opcion[5]" value="valor6" /> En un episodio de Friends, Mónica y Rachel bailan "Funkytown" durante una escena de flashback cuando van a visitar a Ross en la universidad.</div>
+					<div class="divcheckbox"><input type="checkbox" name="opcion[6]" value="valor7" /> En The Kids in the Hall, "Funkytown" se escucha en un flashback de cuando una mujer de mediana edad en un estado de coma inducida por antidepresivos recuerda su recuerdo más feliz, bailando en una discoteca en su juventud.</div>
+					<div class="divcheckbox"><input type="checkbox" name="opcion[7]" value="valor8" /> En un episodio de Will &amp; Grace, Jack se ve bailando en el gimnasio "Funkytown".</div>
+					<div class="divcheckbox"><input type="checkbox" name="opcion[8]" value="valor9" /> En la serie televisiva Malcolm in the middle, el padre de Malcolm: Hal Wilkerson Bryan Cranston baila "Funkytown" como parte de sus clases de patinaje.</div>
+					<div class="divcheckbox"><input type="checkbox" name="opcion[9]" value="valor10" /> Ninguna de las anteriores</div>
+				</div>
+				<div><input type="submit" value="Enviar para participar"/></div>
+			</form>
+		</div>
+	</div>
+	<div>
+		<p id="footer">
+			Copyright &copy; | año 2017 - Escuela DaVinci | Diseño y Maquetado Web, primer cuatrimestre turno Noche, comisión B | Sitio hecho para entrega de TP | Alumno: <a href="mailto:eze.neuquen@gmail.com?subject=Contactarse con el autor" title="eze.neuquen@gmail.com">García Crespo Ezequiel</a>
+		</p>
+	</div>		
+		
+		
+		
+</body>
+
+</html>
