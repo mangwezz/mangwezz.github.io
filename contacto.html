@@ -1,0 +1,99 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+		<title>EME - Contacto</title>
+		<link href="estilo.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<div id="botonera">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="info.html">Mas información</a></li>
+				<li><a href="multi.html">Galería</a></li>
+				<li><a href="exp.html">Experiencias</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</div>
+		<h1>EME - Contacto</h1>
+		<div id="principal">
+			<h2>Formulario de inscripción</h2>
+			<p>
+				Si querés contactarnos para cualquier tipo de información extra completá por favor el siguiento formulario con los siguientes datos:
+			</p>
+			<form method="post" action="gracias.html" enctype="multipart/form-data" >
+				<div><span>Nombre</span><input type="text" name="nombre" size="35"/></div>
+				<div><span>Apellido</span><input type="text" name="apellido" size="35"/></div>
+				<div><span>Correo electrónico</span><input type="text" name="apellido" size="35"/></div>
+				<div id="radio">
+					<span>Sexo</span>
+					<label for="rm">Masculino</label>
+					<input id="rm" type="radio" name="sexo" value="masculino"/>
+					<label for="rf">Femenino</label>
+					<input id="rf" type="radio" name="sexo" value="femenino"/>
+					<label for="ro">Otro</label>
+					<input id="ro" type="radio" name="sexo" value="otro"/> 
+				</div>
+				<div><span>Fecha de Nacimiento</span><input type="text" name="nombre" size="7" value="01.01.2001"/></div>
+				<div>
+					<span>Nacionalidad</span>
+					<select name="nacionalidad">
+						<optgroup label="Sudamérica">
+							<option>Argentina</option>
+							<option>Bolivia</option>
+							<option>Brasil</option>
+							<option>Chile</option>
+							<option>Colombia</option>
+							<option>Ecuador</option>
+							<option>Paraguay</option>
+							<option>Perú</option>
+							<option>Uruguay</option>
+							<option>Venezuela</option>
+						</optgroup>
+						<optgroup label="Europa">
+							<option>Alemania</option>
+							<option>España</option>
+							<option>Francia</option>
+							<option>Portugal</option>
+						</optgroup>
+						<optgroup label="Otros">
+							<option>Otro país</option>
+						</optgroup>
+					</select>
+				</div>
+				<div id="checkbox">
+					<span>Experiencia previa en:</span>
+					<div><input id="cb1" type="checkbox" name="check1" value="contemporanea"/><label for="cb1">Danza contemporánea</label></div>
+					<div><input id="cb2" type="checkbox" name="check2" value="breakdance"/><label for="cb2">Break dance</label></div>
+					<div><input id="cb3" type="checkbox" name="check3" value="parkour"/><label for="cb3">Parkour</label></div>
+					<div><input id="cb4" type="checkbox" name="check4" value="hiphop"/><label for="cb4">Hiphop</label></div>
+					<div><input id="cb5" type="checkbox" name="check5" value="circo"/><label for="cb5">Circo</label></div>
+					<div><input id="cb6" type="checkbox" name="check6" value="cruce"/><label for="cb6">Arte en cruce</label></div>
+					<div><input id="cb7" type="checkbox" name="check7" value="improvisacion"/><label for="cb7">Improvisación</label></div>
+					<div><input id="cb8" type="checkbox" name="check8" value="expresion"/><label for="cb8">Expresión corporal</label></div>
+					<div><input id="cb9" type="checkbox" name="check9" value="otras"/><label for="cb9">Otras disciplinas</label></div>
+				</div>
+				<div id="file">
+					<span>Adjunta una foto tuya</span>
+					<input type="file" name="foto" accept="image/*"/>
+				</div>
+				<div id="textarea">
+					<span>Mensaje</span>
+					<textarea name="descripcion" rows="7" cols="35"></textarea>
+				</div>
+				<div><input type="submit" value="Enviar!"/></div>
+			</form>
+			</div>
+		<div id="footer">
+			<ul>
+				<li>Copyright &copy; año 2017</li>
+				<li>Escuela DaVinci</li>
+				<li>Diseño y Maquetado Web</li>
+				<li>1er cuatrimestre turno noche, comisión B</li>
+				<li>Sitio hecho para entrega de TP FINAL</li>
+				<li>Alumno: <a href="mailto:eze.neuquen@gmail.com?subject=Contactarse con el autor" title="eze.neuquen@gmail.com">García Crespo Ezequiel</a></li>
+			</ul>
+		</div>
+	</body>
+</html>
