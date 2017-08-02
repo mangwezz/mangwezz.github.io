@@ -3,7 +3,7 @@
 body {
 	width: 1200px;
 	margin: auto;
-	font-family: "trebuchet MS";
+	font-family: trebuchet MS;
 	background: url("img/tiles3.jpg") fixed;
 	color: #DDD;
 }
@@ -18,11 +18,13 @@ h1 {
 
 h2 {
 	text-transform: uppercase;
-	font-size: large;
+	font-size: x-large;
 	color: #fff;
 	background: url("img/dark-leather.png") #111;
 	padding: 10px 0 10px 60px;
 	border-radius: 10px;
+	box-shadow: 3px 3px 15px rgb(1,1,1,0.2);
+/*	font-family: 'Voltaire', 'MS Trebuchet';*/
 }
 
 
@@ -60,9 +62,20 @@ strong {
 	color: #EEE;
 }
 
+img {
+	margin-top: 15px;
+	margin-left: 5%;
+	box-shadow: 3px 3px 15px rgb(1,1,1,0.2);
+	border-radius: 7px;
+}
+
 .titulo {
 	font-style: italic;
 	color: #EEE;
+}
+
+#actual {
+	color: #b99;														/*	TRIM COLOR	*/
 }
 
 /*h3 de info.html 						////////////////	///////////////	///////////////	///////////////	///////////////	///////////////	///////////////	*/	
@@ -88,6 +101,12 @@ strong {
 	padding: 13px;
 }
 
+/*Para las listas debajo de h2 enfoque físico y enfoque psicológico*/
+
+.li5 li {
+	margin-bottom: 10px;
+}
+
 /*id principal / botonera  / footer ////////////////	///////////////	///////////////	///////////////	///////////////	///////////////	///////////////	*/	
 
 #principal {
@@ -110,12 +129,13 @@ strong {
 	text-align: center;
 	background: url("img/botoneraback5.png") no-repeat center;
 	padding: 60px 0;
-	font-size: 17px;
+	font-size: 22px;
 	text-transform: uppercase;
 	transition-duration: 0.5s;
 	transition-timing-function: ease-in-out; 
 	transition-delay: 0;
 	text-shadow: 4px 4px 2px #111;
+	font-family: 'Voltaire'
 }
 
 #botonera:hover {
@@ -274,11 +294,13 @@ select {
 	filter: none;
 }																			
 
-#videos {
-	margin: 0 15px;
+#videos li {
+	display: inline-block;	
 }
 
-.vidgal {
+object {
+	display:inline-block;
+	box-shadow: 3px 3px 10px #111;
 	transition-property: background, transform;	
 	transition-duration: 0.3s;
 	transition-timing-function: ease-in-out; 
@@ -286,21 +308,6 @@ select {
 	filter: brightness(0.8);
 }
 
-.vidgal:hover {
+object:hover {
 	 filter:none;
-}
-
-.vidgal {
-	display:inline-block;
-	box-shadow: 3px 3px 10px #111;
-}
-
-.vidgal p{
-	margin: 0;
-	background: rgb(1,1,1,0.5);
-	padding: 5px 0 5px 10px;
-}
-	
-.vidgal:nth-child( odd ) {
-	margin-left: 25px;
 }
